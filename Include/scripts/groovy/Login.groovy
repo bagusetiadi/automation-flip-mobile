@@ -83,4 +83,8 @@ class Login {
 			KeywordUtil.markFailedAndStop('error')
 		}
 	}
+	@And("User tap OK Idul Adha")
+	def idulAdha() {
+		Mobile.tap(findTestObject('basic/idulAdha'), 2)
+	}
 }

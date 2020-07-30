@@ -46,8 +46,13 @@ public class KirimUang {
 	}
 	@And("User tap Ok, Data Sudah Benar")
 	def dataBenar() {
+		def now = new Date().format('HH:mm', TimeZone.getTimeZone('GMT+7'))
 		Mobile.scrollToText('DATA SUDAH BENAR', FailureHandling.CONTINUE_ON_FAILURE)
 		Mobile.tap(findTestObject('kirim-uang/submitBtn'), 2)
+		if (now >= '20:00') {
+			Mobile.tap(findTestObject('basic/okKeluarBtn'), 2)
+		} else {
+		}
 	}
 	@And("User tap Transfer via BCA")
 	def viaBca() {
@@ -60,9 +65,14 @@ public class KirimUang {
 	}
 	@And("User tap Tambah Tujuan Baru")
 	def tujuanBaru() {
+		def now = new Date().format('HH:mm', TimeZone.getTimeZone('GMT+7'))
 		Mobile.scrollToText('DATA SUDAH BENAR', FailureHandling.CONTINUE_ON_FAILURE)
 		Mobile.tap(findTestObject('kirim-uang/tambahTujuanBtn'), 2)
 		Mobile.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+		if (now >= '20:00') {
+			Mobile.tap(findTestObject('basic/okKeluarBtn'), 2)
+		} else {
+		}
 	}
 	@And("User tap Lanjut Ke Pengiriman")
 	def lanjutPengiriman() {

@@ -47,7 +47,7 @@ public class Refund {
 	}
 	@Then("Refund Transaction Successfully Created")
 	def refundCreated() {
-		if (Mobile.waitForElementPresent(findTestObject('refund/refundSuccess'), 20)) {
+		if (Mobile.waitForElementPresent(findTestObject('refund/refundSuccess'), 100)) {
 			KeywordUtil.markPassed('Passed')
 		} else {
 			KeywordUtil.markFailedAndStop('error')
