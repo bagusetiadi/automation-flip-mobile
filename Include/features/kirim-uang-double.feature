@@ -1,4 +1,5 @@
-Feature: Kirim Uang Feature
+Feature: Kirim Uang For Two Account Feature
+As a user, I want to send money for two bank account from BCA to BTPN Jenius
 
   Scenario: Create double transaction send money from BCA to BTPN Jenius
     Given User already login 

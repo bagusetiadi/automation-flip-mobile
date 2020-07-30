@@ -1,6 +1,7 @@
 Feature: Isi Pulsa Feature
+As a user, I wan't to buy data package with BCA Bank Transfer
 
-  Scenario: Create transaction buy credit Telkomsel
+  Scenario: Create transaction buy data package with BCA Bank Transfer
     Given User already login 
     When User tap Isi Paket Data
     And User type phone number

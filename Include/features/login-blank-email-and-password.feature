@@ -1,4 +1,5 @@
 Feature: Login Feature
+As a user, I want to check the login function if I didn't enter both email and password
 
   Scenario: Login with blank email and password
     Given User already enter the application

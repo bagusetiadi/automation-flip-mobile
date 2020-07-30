@@ -1,4 +1,5 @@
 Feature: Login Feature
+As a user, I want to check the login to my Flip Account
 
   Scenario: Login with valid credentials
     Given User already enter the application

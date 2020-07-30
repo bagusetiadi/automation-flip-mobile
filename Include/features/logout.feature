@@ -1,4 +1,5 @@
 Feature: Logout Feature
+As a user, I wan't to logout from my Flip Account
 
   Scenario: Logout from flip account
     Given User already login 

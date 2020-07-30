@@ -1,4 +1,5 @@
 Feature: Create Refund
+As a user, I wan't to ask for refund because I transfer more than nominal transaction
 
   Scenario: Create refund because transfer more than nominal transaction
     Given User already login 

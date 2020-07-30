@@ -1,4 +1,5 @@
 Feature: Kirim Uang Feature
+As a user, I want to send money from BCA to BTPN Jenius
 
   Scenario: Create transaction send money from BCA to BTPN Jenius
     Given User already login 

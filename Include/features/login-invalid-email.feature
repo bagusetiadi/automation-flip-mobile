@@ -1,4 +1,5 @@
 Feature: Login Feature
+As a user, I want to check the login function if I enter the wrong email
 
   Scenario: Login with invalid email
     Given User already enter the application
