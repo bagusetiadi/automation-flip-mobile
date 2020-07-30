@@ -29,4 +29,9 @@
       <initValue>'asdasdasd'</initValue>
       <name>invalidEmail</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'90320025425'</initValue>
+      <name>btpn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

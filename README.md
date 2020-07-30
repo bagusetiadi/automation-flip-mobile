@@ -1,6 +1,6 @@
 # Automation Test for Flip.id (MOBILE)
 
-Hi! This is a script automation for Flip.id (mobile) using Katalon Studio & BDD Framework
+Hi! This is a script automation for Flip.id (mobile) using Katalon Studio with BDD Framework
 
 ## Getting Started
 
@@ -32,4 +32,5 @@ What things you need to install the software and how to install them
 	2. Clone the project into your local directory.
 	3. Open your project with Katalon Studio.
 	4. Reload your plugin.
-	5. Your project is ready to run with virtual or real devices!
+	5. Prepare your android device
+	6. Run Test Suites - user-journey
