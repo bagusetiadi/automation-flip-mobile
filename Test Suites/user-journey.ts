@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/basic/login-success</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a1bcd6b7-e8b8-4bff-9814-91bc7bfb5e5f</guid>
+      <guid>fb832eff-110b-4c11-8a35-706410fb6f5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/basic/afterTestCase</testCaseId>
@@ -30,7 +30,7 @@
       <testCaseId>Test Cases/transaction/send-money</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e55c07c5-5a75-437a-a74f-88713fc57eb6</guid>
+      <guid>6cf826ba-29d4-4706-a31d-3e38d6228f76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/basic/afterTestCase</testCaseId>
@@ -42,7 +42,7 @@
       <testCaseId>Test Cases/transaction/send-multiple-money</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f28005ab-d6b0-446e-a2c9-2868292b0e54</guid>
+      <guid>66eb921c-6ecc-47eb-97a4-d49e50332bfc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/basic/afterTestCase</testCaseId>
@@ -78,7 +78,7 @@
       <testCaseId>Test Cases/transaction/create-refund</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d49a8b07-dc6b-4eec-9ce5-763f010f0f7b</guid>
+      <guid>1e8e5f7e-f322-4337-a140-0d8c065f8aa6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/basic/afterTestCase</testCaseId>

@@ -69,7 +69,7 @@ class Login {
 	}
 	@Then("User successfully login")
 	def loginSuccess() {
-		if (Mobile.waitForElementPresent(findTestObject('basic/kirimUangBtn'), 10)) {
+		if (Mobile.waitForElementPresent(findTestObject('basic/kirimUangBtn'), 30)) {
 			KeywordUtil.markPassed('success')
 		} else {
 			KeywordUtil.markFailedAndStop('error')
