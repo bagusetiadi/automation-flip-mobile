@@ -28,9 +28,10 @@ What things you need to install the software and how to install them
 ## How to Run the Project
 * ### Running on your local machine (Katalon Studio)
 	
-	1. After you opened the Katalon Studio, you must have at least one project to test. You can put example [here](https://github.com/bagusetiadi/automation-flip-mobile.git)
-	2. Clone the project into your local directory.
-	3. Open your project with Katalon Studio.
-	4. Reload your plugin.
-	5. Prepare your android device
-	6. Run Test Suites - user-journey
+1. After you opened the Katalon Studio, you must have at least one project to test. You can put example [here](https://github.com/bagusetiadi/automation-flip-mobile.git)
+2. Clone the project into your local directory.
+3. Open your project with Katalon Studio.
+4. Reload your plugin.
+5. Prepare your android device
+6. Download Flip.id from Google Play Store
+7. Run Test Suites - user-journey
