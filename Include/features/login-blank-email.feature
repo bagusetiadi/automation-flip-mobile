@@ -7,3 +7,4 @@ As a user, I want to check the login function if I didn't enter my email
     And User enter valid password
     And User click login button
     Then User cannot login
+    And User press back

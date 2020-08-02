@@ -7,3 +7,4 @@ As a user, I wan't to logout from my Flip Account
     And User tap Keluar
     And User tap OK Keluar
     Then User successfully logout
+    And User press back

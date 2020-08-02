@@ -15,3 +15,4 @@ As a user, I wan't to ask for refund because I transfer more than nominal transa
     And User tap Cek Nama
     And User tap Buat Permintaan Refund
     Then Refund Transaction Successfully Created
+    And User press back

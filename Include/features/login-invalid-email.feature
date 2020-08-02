@@ -7,3 +7,4 @@ As a user, I want to check the login function if I enter the wrong email
     And User enter valid password
     And User click login button
     Then User cannot login
+    And User press back

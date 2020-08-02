@@ -7,3 +7,4 @@ As a user, I want to check the login function if I didn't enter wrong password
     And User enter wrong password
     And User click login button
     Then User cannot login
+    And User press back

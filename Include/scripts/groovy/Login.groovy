@@ -87,4 +87,12 @@ class Login {
 	def idulAdha() {
 		Mobile.tap(findTestObject('basic/idulAdha'), 2)
 	}
+	@And("User press back")
+	def pressBack() {
+		Mobile.pressBack()
+		Mobile.pressBack()
+		Mobile.pressBack()
+		Mobile.pressBack()
+		Mobile.pressBack()
+	}
 }

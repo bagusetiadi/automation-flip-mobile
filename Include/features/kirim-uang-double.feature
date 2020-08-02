@@ -4,7 +4,6 @@ As a user, I want to send money for two bank account from BCA to BTPN Jenius
   Scenario: Create double transaction send money from BCA to BTPN Jenius
     Given User already login 
     When User tap Kirim Uang
-    And User tap OK Idul Adha
     And User tap Bank Option
     And User select Jenius Bank
     And User type account number
@@ -22,3 +21,4 @@ As a user, I want to send money for two bank account from BCA to BTPN Jenius
     And User tap Lanjut Ke Pengiriman
     And User tap Transfer via BCA
     Then User Successfully Create Transaction
+    And User press back
