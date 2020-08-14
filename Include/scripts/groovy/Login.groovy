@@ -21,7 +21,7 @@ class Login {
 	}
 	@And("User enter valid password")
 	def typePassword() {
-		Mobile.setText(findTestObject('basic/passwordTxt'), GlobalVariable.password, 2)
+		Mobile.setEncryptedText(findTestObject('basic/passwordTxt'), GlobalVariable.password, 2)
 	}
 	@And("User enter blank password")
 	def blankPassword() {

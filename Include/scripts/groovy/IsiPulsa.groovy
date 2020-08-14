@@ -45,7 +45,7 @@ public class IsiPulsa {
 	@Then("User Successfully buy credit")
 	def successBuyCredit() {
 		if (Mobile.waitForElementPresent(findTestObject('isi-pulsa/verivyTransferFlip'), 4)
-			) {
+		) {
 			KeywordUtil.markPassed('Passed')
 		} else if (Mobile.waitForElementPresent(findTestObject('isi-pulsa/BCA'), 10)) {
 			KeywordUtil.markPassed('Passed')
